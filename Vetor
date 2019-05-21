@@ -1,0 +1,45 @@
+#EXERCICIO 1
+lista = []
+
+for cont in range (10):
+  numero = (int(input("digite um numero   ")))
+  lista.append(numero)
+  #print(lista)
+  
+  
+localizar = (int(input("digite um numero para procurar:  ")))
+for cont in range (10):
+  if localizar == lista[cont]:
+    print("o valor procurado esta na posicao", cont)
+    cont = -1
+    break
+  
+if cont != -1:
+  print("nao localizou")
+  
+  
+  
+  #EXERCICIO 2
+  
+  aposta = [1,2,3,4,5,6]
+sorteio = [9,12,4,5,6,7]
+vetorAcertos=[]
+
+for cont in range (6):
+  for con in range (6):
+    if aposta[cont]==sorteio[con]:
+      vetorAcertos.append(aposta[cont])
+
+print("Os valores  acertados sao:",vetorAcertos)
+
+
+#EXERCICIO 3
+
+faturamento = 0
+faturamentoMadeira=0
+mercadoria = ['madeira','soja','leite']
+precos=[10,5,9]
+quatidadeVendas=[20,2,3]
+for cont in range (len(precos)):
+    faturamento= faturamento + (precos[cont]*quatidadeVendas[cont])
+print(faturamento)
