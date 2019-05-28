@@ -1,0 +1,18 @@
+def somar (prm1, prm2,):
+    print(prm1)
+    print(prm2)
+
+
+def validarValor(valor, inicioIntervalo, fimIntervalo):
+    if valor >= inicioIntervalo and valor <= fimIntervalo:
+        return True
+    return False
+
+
+def somar( operando1, operando2):
+    resultado = operando1 + operando2
+    return resultado
+
+resultado = validarValor(10,1,31)
+
+print resultado
