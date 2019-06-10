@@ -1,0 +1,60 @@
+#VARIAVEIS
+principal = 0
+lista1= []
+player1 = 0
+player2 = 0
+
+
+#JOGADAS
+PEDRA = 1
+PAPEL = 2
+TESOURA = 3
+
+
+print("-------------------")
+print("      JOKENPO      ")
+print("-------------------")
+
+principal = int(input(print("Para iniciar escolha uma opcao (1)Jogar   ou    (2)Estatisticas        ")))
+
+
+#MODO JOGO
+if principal == 1:
+    modo=int(input(print(" Digite (1) para PLAYER 1 VS PLAYER 2      ou    (2) PLAYER VS CPU        ")))
+
+    while modo == 1:
+        while true:
+            player1 = int(input(print("PLAYER1 Escolha sua jogada (1)Pedra (2)Papel (3)Tesoura       ")))
+            if player1 == 1:
+                continue
+            elif player1 == 2:
+                continue
+            elif player1 == 3:
+                continue
+            else:
+                print("opcao invalida")
+                return
+
+
+
+
+
+        player2 = int(input(print("PLAYER2 Escolha sua jogada (1)Pedra (2)Papel (3)Tesoura       ")))
+        elif player2 == 1:
+            continue
+        elif player2 == 2:
+            continue
+        elif player2 == 3:
+            continue
+        else:
+            print("opcao invalida")
+            return
+
+        elif player1 == 1 and player2 == 3 or player1  == 2 and player2 == 1 or player1  == 3 and player2 == 2:
+            print('O PLAYER1 venceu a partida')
+
+        elif player1 == 3 and player2  == 1 or player1 == 1 and player2 == 2 or player1 == 2 and player2  == 3:
+            print('O PLAYER2 venceu a partida')
+
+        elif player1 == 1 and player2 == 1 or player1 == 2 and player2 == 2 or player1 == 3 and player2 == 3:
+            print('Houve empate')
