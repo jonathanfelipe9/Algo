@@ -1,0 +1,3 @@
+-numero normal de celular, e o ddd precisa ser 41 funcao que receba o vetor e retorne true se o ddd é 41, caso nao retornar false
+-matriz com 3 restaurantes e tem 7 dias na semana com a quantidade de clientes, ler valores do teclado e adicionar no vetor, ai ele quer saber qual atendeu mais clientes no sabado, se for igual retornar igual, a quantidade de clientes deve ser lida do teclado
+-um unico vetor contem preco de 5 produtos, precisa tirar uma media deles e verificar a quantidade de produtos que esta abaixo da media e dps imprimir na tela preco de todos os produto somados mais 20%. valores devem ser lidos do teclado
